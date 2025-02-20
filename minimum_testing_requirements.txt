@@ -1,0 +1,24 @@
+02192506091 NIST Minimum Requirements for Software Verification
+(Exported Feb 19 2025)
+
+**Minimum requirements for verification:**
+*(see https://www.nist.gov/publications/guidelines-minimum-standards-developer-verification-software)*
+**(2.1)** Threat modeling
+Note that the rest of this stuff should be automated per (2.2)
+**(2.3)** Static analysis / code scanner
+**(2.4)** Review for hardcoded secrets... and review for a bunch of other stuff too? (Use heuristic tools)
+**(2.5)** Use built-in protection features from the language -- gcc protection flags, linter, strict mode, etc. Also use hardware / OS security and protection features if available.
+**(2.6)** Black box testing (based on functional specs/requirements and negative tests, not specific code implementation.)
+**(2.7)** Code-based testing (based on implementation)
+**(2.8)** Historical test cases (regression test cases)
+**(2.9)** Let a fuzzer loose on the inputs
+**(2.10)** Web application scanning for the cloud server
+**(2.11)** Perform the above or find alternate assurance for third party software components included in the design
+
+**What is verification?**
+* Includes but isn't limited to testing. Verification includes static analysis, code review, etc,
+* What are we verifying against? Need some reference...
+- Software specification
+- Coding standards (eg MISRA C for automotive)
+- Security policies
+- Lists of common weaknesses
