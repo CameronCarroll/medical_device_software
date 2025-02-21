@@ -49,6 +49,7 @@ Note that the FDA guidance does not describe a complete SPDF. The elements prima
 * Cybersecurity Testing
 
 **Security Architecture and Design**
+(See dedicated section in guidance for substantially more detail.)
 * Must be able to provide a description to FDA of how each of these security objectives has been addressed by / integrated into the design...
 	* Authenticity / integrity
 	* Authorization
@@ -59,6 +60,7 @@ Note that the FDA guidance does not describe a complete SPDF. The elements prima
 	* Note that this is a cybersecurity-specific risk level and is separate from any device classification (*eg class IIb*) or level of risk/concern *a la* FDA software guidance.
 
 **Transparency & Labelling**
+(See dedicated section in guidance for substantially more detail.)
 * Cybersecurity information should be provided to end users...
 	* What are the communication interfaces?
 	* What 3rd party software is included?
