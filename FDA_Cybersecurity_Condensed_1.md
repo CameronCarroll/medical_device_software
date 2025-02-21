@@ -29,8 +29,8 @@
 
 
 **What is a SPDF/SSDF?**
-FDA: Secure Product Development Framework
-NIST: Secure Software Development Framework
+* FDA: Secure Product Development Framework
+* NIST: Secure Software Development Framework
 
 * These are development processes intended to reduce the number / severity of vulnerabilities in the product / lifecycle. Both FDA and NIST recommend adopting a S(X)DF. There are many such frameworks, including medical device-specific frameworks.
 * As always, FDA notes that the SPDF may be *one way* to satisfy the QS regulation but other approaches may be taken. (*Of course any other approach needs to provide equivalent assurance based on objective evidence. It's like of like "the standard is optional.." The standard isn't really optional unless you have an expert in that field who knows every sharp edge of the alternate approach. Just follow an SPDF.*)
@@ -106,6 +106,7 @@ Note that the FDA guidance does not describe a complete SPDF. The elements prima
 	* Testing documentation
 
 **What is threat modeling?**
+
 {Security objectives, risks, vulnerabilities} --> {Countermeasures to prevent, monitor or respond to threats}
 * States assumptions about environment of use
   eg hospital network is inherently hostile and an adversary could alter/drop/replay packets.
@@ -120,9 +121,10 @@ Note that the FDA guidance does not describe a complete SPDF. The elements prima
 * Threat modeling documentation should review the security features of the device in context of system safety & effectiveness.
 
 **Evaluation of Third Party Components**
-See additional guidance docs for further information on use of / evaluation of thidr party components...
-(1) https://www.fda.gov/regulatory-information/search-fda-guidance-documents/shelf-software-use-medical-devices
-(2) https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-networked-medical-devices-containing-shelf-ots-software
+
+See additional guidance docs for further information on use of / evaluation of third party components...
+1) https://www.fda.gov/regulatory-information/search-fda-guidance-documents/shelf-software-use-medical-devices
+2) https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-networked-medical-devices-containing-shelf-ots-software
 
 * Manufacturer Obligations: To support design controls (820.30(g)) and supply chain / purchasing risk (820.50) obligations, all software, whether developed by the manufacturer or a third party, should be assessed for cybersecurity risk.
 	* (Legal manufacturer is responsible to ensure all purchased or otherwise received product/services meet their specifications/requirements.)
